@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+use_frameworks!
+xcodeproj 'bearCook.xcodeproj'
+target 'bearCook' do
+pod 'AFNetworking','~>3.1.0'
+pod 'SDCycleScrollView','~> 1.64'
+use_frameworks!
+end

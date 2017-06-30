@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201CA4201EF8D10600F6B049 /* CommonUIScrollVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 201CA41F1EF8D10600F6B049 /* CommonUIScrollVIew.m */; };
+		201CA4231EF90F7000F6B049 /* CommonTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 201CA4221EF90F7000F6B049 /* CommonTitleView.m */; };
+		202AEDCEF3C1594CA61CED5F /* Pods_bearCook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743B26CED38ED37A21809D57 /* Pods_bearCook.framework */; };
+		202C7F6E1EE6B1F80010B17D /* GoodFoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 202C7F6D1EE6B1F80010B17D /* GoodFoodCollectionViewCell.m */; };
+		2043E52D1EE5306800F555EA /* ImgData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2043E52C1EE5306800F555EA /* ImgData.m */; };
+		207BEE651EF0D4F900CA5F1D /* FoodClassNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BEE641EF0D4F900CA5F1D /* FoodClassNameCell.m */; };
+		207BEE6A1EF0E4E800CA5F1D /* HotClassificationVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BEE691EF0E4E800CA5F1D /* HotClassificationVIew.m */; };
+		207BEE6D1EF0E6E400CA5F1D /* HotClassificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BEE6C1EF0E6E400CA5F1D /* HotClassificationController.m */; };
+		207BF9001ED274CF00B89939 /* CookTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BF8FF1ED274CF00B89939 /* CookTabViewController.m */; };
+		207BF9061ED285F600B89939 /* CookMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BF9051ED285F600B89939 /* CookMenuController.m */; };
+		207BF9161ED2CEC600B89939 /* MyMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BF9151ED2CEC600B89939 /* MyMenuController.m */; };
+		207BF9201ED334D500B89939 /* OtherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BF91F1ED334D500B89939 /* OtherController.m */; };
+		207BF9281ED58EF400B89939 /* GoodFoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BF9271ED58EF400B89939 /* GoodFoodView.m */; };
+		20A379E31ED1D50600F9C2A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A379E21ED1D50600F9C2A5 /* main.m */; };
+		20A379E61ED1D50600F9C2A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A379E51ED1D50600F9C2A5 /* AppDelegate.m */; };
+		20A379EF1ED1D50600F9C2A5 /* bearCook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20A379ED1ED1D50600F9C2A5 /* bearCook.xcdatamodeld */; };
+		20A379F11ED1D50600F9C2A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A379F01ED1D50600F9C2A5 /* Assets.xcassets */; };
+		20A379F41ED1D50600F9C2A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A379F21ED1D50600F9C2A5 /* LaunchScreen.storyboard */; };
+		20BFA7E51EF76FA3000E2B31 /* HotCollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BFA7E41EF76FA3000E2B31 /* HotCollectionHeadView.m */; };
+		20DD0E071EFA16EE006AC7C2 /* CookMenuListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DD0E061EFA16EE006AC7C2 /* CookMenuListController.m */; };
+		20F29B441EFCB7E600E7507C /* MenuShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F29B431EFCB7E600E7507C /* MenuShowCell.m */; };
+		20F29B481EFD0EDF00E7507C /* CookMenuDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F29B471EFD0EDF00E7507C /* CookMenuDetailsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		201CA41E1EF8D10600F6B049 /* CommonUIScrollVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUIScrollVIew.h; sourceTree = "<group>"; };
+		201CA41F1EF8D10600F6B049 /* CommonUIScrollVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUIScrollVIew.m; sourceTree = "<group>"; };
+		201CA4211EF90F7000F6B049 /* CommonTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTitleView.h; sourceTree = "<group>"; };
+		201CA4221EF90F7000F6B049 /* CommonTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTitleView.m; sourceTree = "<group>"; };
+		202C7F6D1EE6B1F80010B17D /* GoodFoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodFoodCollectionViewCell.m; sourceTree = "<group>"; };
+		202C7F6F1EE6B2390010B17D /* GoodFoodCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodFoodCollectionViewCell.h; sourceTree = "<group>"; };
+		2043E52B1EE5306800F555EA /* ImgData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgData.h; sourceTree = "<group>"; };
+		2043E52C1EE5306800F555EA /* ImgData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgData.m; sourceTree = "<group>"; };
+		207BEE631EF0D4F900CA5F1D /* FoodClassNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodClassNameCell.h; sourceTree = "<group>"; };
+		207BEE641EF0D4F900CA5F1D /* FoodClassNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodClassNameCell.m; sourceTree = "<group>"; };
+		207BEE681EF0E4E800CA5F1D /* HotClassificationVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotClassificationVIew.h; sourceTree = "<group>"; };
+		207BEE691EF0E4E800CA5F1D /* HotClassificationVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotClassificationVIew.m; sourceTree = "<group>"; };
+		207BEE6B1EF0E6E400CA5F1D /* HotClassificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotClassificationController.h; sourceTree = "<group>"; };
+		207BEE6C1EF0E6E400CA5F1D /* HotClassificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotClassificationController.m; sourceTree = "<group>"; };
+		207BF8FE1ED2748D00B89939 /* CookTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookTabViewController.h; sourceTree = "<group>"; };
+		207BF8FF1ED274CF00B89939 /* CookTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookTabViewController.m; sourceTree = "<group>"; };
+		207BF9041ED285F600B89939 /* CookMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookMenuController.h; sourceTree = "<group>"; };
+		207BF9051ED285F600B89939 /* CookMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookMenuController.m; sourceTree = "<group>"; };
+		207BF9151ED2CEC600B89939 /* MyMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMenuController.m; sourceTree = "<group>"; };
+		207BF9171ED2CF0200B89939 /* MyMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMenuController.h; sourceTree = "<group>"; };
+		207BF91F1ED334D500B89939 /* OtherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherController.m; sourceTree = "<group>"; };
+		207BF9221ED334FB00B89939 /* OtherController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherController.h; sourceTree = "<group>"; };
+		207BF9261ED58E8700B89939 /* GoodFoodView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodFoodView.h; sourceTree = "<group>"; };
+		207BF9271ED58EF400B89939 /* GoodFoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodFoodView.m; sourceTree = "<group>"; };
+		207BF92D1ED66DF900B89939 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		20A379DE1ED1D50600F9C2A5 /* bearCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bearCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A379E21ED1D50600F9C2A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20A379E41ED1D50600F9C2A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20A379E51ED1D50600F9C2A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20A379EE1ED1D50600F9C2A5 /* bearCook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bearCook.xcdatamodel; sourceTree = "<group>"; };
+		20A379F01ED1D50600F9C2A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20A379F31ED1D50600F9C2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20A379F51ED1D50600F9C2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BFA7E31EF76FA3000E2B31 /* HotCollectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotCollectionHeadView.h; sourceTree = "<group>"; };
+		20BFA7E41EF76FA3000E2B31 /* HotCollectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotCollectionHeadView.m; sourceTree = "<group>"; };
+		20DD0E051EFA1688006AC7C2 /* CookMenuListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookMenuListController.h; sourceTree = "<group>"; };
+		20DD0E061EFA16EE006AC7C2 /* CookMenuListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookMenuListController.m; sourceTree = "<group>"; };
+		20F29B421EFCB7E600E7507C /* MenuShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuShowCell.h; sourceTree = "<group>"; };
+		20F29B431EFCB7E600E7507C /* MenuShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuShowCell.m; sourceTree = "<group>"; };
+		20F29B461EFD0EDF00E7507C /* CookMenuDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookMenuDetailsController.h; sourceTree = "<group>"; };
+		20F29B471EFD0EDF00E7507C /* CookMenuDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookMenuDetailsController.m; sourceTree = "<group>"; };
+		6263CA52A05421F51864E3AB /* Pods-bearCook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bearCook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bearCook/Pods-bearCook.debug.xcconfig"; sourceTree = "<group>"; };
+		743B26CED38ED37A21809D57 /* Pods_bearCook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bearCook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1FD8141D52876A20C76008 /* Pods-bearCook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bearCook.release.xcconfig"; path = "Pods/Target Support Files/Pods-bearCook/Pods-bearCook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20A379DB1ED1D50600F9C2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202AEDCEF3C1594CA61CED5F /* Pods_bearCook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2011E5341F0349410047B56A /* code */ = {
+			isa = PBXGroup;
+			children = (
+				207BF92D1ED66DF900B89939 /* PrefixHeader.pch */,
+				20A379E41ED1D50600F9C2A5 /* AppDelegate.h */,
+				20A379E51ED1D50600F9C2A5 /* AppDelegate.m */,
+				20A379E21ED1D50600F9C2A5 /* main.m */,
+				207BF9291ED66CCD00B89939 /* common */,
+				20A379FB1ED1D7CD00F9C2A5 /* main */,
+				207BF9011ED27C4500B89939 /* allMenu */,
+				207BF9021ED27C6900B89939 /* myMenu */,
+				207BF9031ED27C7900B89939 /* other */,
+			);
+			name = code;
+			sourceTree = "<group>";
+		};
+		2043E5271EE52A7300F555EA /* commonData */ = {
+			isa = PBXGroup;
+			children = (
+				2043E52B1EE5306800F555EA /* ImgData.h */,
+				2043E52C1EE5306800F555EA /* ImgData.m */,
+			);
+			name = commonData;
+			sourceTree = "<group>";
+		};
+		2072CF811EFB671C006CAAFF /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = protocol;
+			sourceTree = "<group>";
+		};
+		207BEE661EF0E2B800CA5F1D /* goodFood */ = {
+			isa = PBXGroup;
+			children = (
+				202C7F6F1EE6B2390010B17D /* GoodFoodCollectionViewCell.h */,
+				202C7F6D1EE6B1F80010B17D /* GoodFoodCollectionViewCell.m */,
+				207BF9261ED58E8700B89939 /* GoodFoodView.h */,
+				207BF9271ED58EF400B89939 /* GoodFoodView.m */,
+			);
+			name = goodFood;
+			sourceTree = "<group>";
+		};
+		207BEE671EF0E36100CA5F1D /* hotClassification */ = {
+			isa = PBXGroup;
+			children = (
+				207BEE631EF0D4F900CA5F1D /* FoodClassNameCell.h */,
+				207BEE641EF0D4F900CA5F1D /* FoodClassNameCell.m */,
+				207BEE681EF0E4E800CA5F1D /* HotClassificationVIew.h */,
+				207BEE691EF0E4E800CA5F1D /* HotClassificationVIew.m */,
+				20BFA7E31EF76FA3000E2B31 /* HotCollectionHeadView.h */,
+				20BFA7E41EF76FA3000E2B31 /* HotCollectionHeadView.m */,
+			);
+			name = hotClassification;
+			sourceTree = "<group>";
+		};
+		207BEE6E1EF0E93600CA5F1D /* hotClassification */ = {
+			isa = PBXGroup;
+			children = (
+				207BEE6B1EF0E6E400CA5F1D /* HotClassificationController.h */,
+				207BEE6C1EF0E6E400CA5F1D /* HotClassificationController.m */,
+			);
+			name = hotClassification;
+			sourceTree = "<group>";
+		};
+		207BEE6F1EF0E99B00CA5F1D /* goodFood */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = goodFood;
+			sourceTree = "<group>";
+		};
+		207BF9011ED27C4500B89939 /* allMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2072CF811EFB671C006CAAFF /* protocol */,
+				207BF9081ED2903000B89939 /* view */,
+				207BF9071ED2902600B89939 /* model */,
+				207BF9091ED2903D00B89939 /* controller */,
+			);
+			name = allMenu;
+			sourceTree = "<group>";
+		};
+		207BF9021ED27C6900B89939 /* myMenu */ = {
+			isa = PBXGroup;
+			children = (
+				207BF9111ED2CDED00B89939 /* model */,
+				207BF9101ED2CDD200B89939 /* view */,
+				207BF90F1ED2CDBB00B89939 /* controller */,
+			);
+			name = myMenu;
+			sourceTree = "<group>";
+		};
+		207BF9031ED27C7900B89939 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				207BF91C1ED3327300B89939 /* model */,
+				207BF91D1ED3328A00B89939 /* view */,
+				207BF91E1ED3329500B89939 /* controller */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		207BF9071ED2902600B89939 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		207BF9081ED2903000B89939 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				20F29B411EFCB77A00E7507C /* menu */,
+				207BEE671EF0E36100CA5F1D /* hotClassification */,
+				207BEE661EF0E2B800CA5F1D /* goodFood */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		207BF9091ED2903D00B89939 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				207BF9041ED285F600B89939 /* CookMenuController.h */,
+				207BF9051ED285F600B89939 /* CookMenuController.m */,
+				20F29B451EFD0E9800E7507C /* cookMenuDetailsController */,
+				20DD0E041EFA15F9006AC7C2 /* cookMenuList */,
+				207BEE6F1EF0E99B00CA5F1D /* goodFood */,
+				207BEE6E1EF0E93600CA5F1D /* hotClassification */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		207BF90F1ED2CDBB00B89939 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				207BF9171ED2CF0200B89939 /* MyMenuController.h */,
+				207BF9151ED2CEC600B89939 /* MyMenuController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		207BF9101ED2CDD200B89939 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		207BF9111ED2CDED00B89939 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		207BF91C1ED3327300B89939 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		207BF91D1ED3328A00B89939 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		207BF91E1ED3329500B89939 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				207BF9221ED334FB00B89939 /* OtherController.h */,
+				207BF91F1ED334D500B89939 /* OtherController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		207BF9291ED66CCD00B89939 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				2043E5271EE52A7300F555EA /* commonData */,
+				207BF92C1ED66D9C00B89939 /* commonView */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		207BF92C1ED66D9C00B89939 /* commonView */ = {
+			isa = PBXGroup;
+			children = (
+				201CA41E1EF8D10600F6B049 /* CommonUIScrollVIew.h */,
+				201CA41F1EF8D10600F6B049 /* CommonUIScrollVIew.m */,
+				201CA4211EF90F7000F6B049 /* CommonTitleView.h */,
+				201CA4221EF90F7000F6B049 /* CommonTitleView.m */,
+			);
+			name = commonView;
+			sourceTree = "<group>";
+		};
+		20A379D51ED1D50600F9C2A5 = {
+			isa = PBXGroup;
+			children = (
+				20A379E01ED1D50600F9C2A5 /* bearCook */,
+				20A379DF1ED1D50600F9C2A5 /* Products */,
+				D6F239B0A0B528A4C5F48009 /* Pods */,
+				F128D57921A425609719C2AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20A379DF1ED1D50600F9C2A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A379DE1ED1D50600F9C2A5 /* bearCook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20A379E01ED1D50600F9C2A5 /* bearCook */ = {
+			isa = PBXGroup;
+			children = (
+				2011E5341F0349410047B56A /* code */,
+				20A379E11ED1D50600F9C2A5 /* Supporting Files */,
+			);
+			path = bearCook;
+			sourceTree = "<group>";
+		};
+		20A379E11ED1D50600F9C2A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A379F01ED1D50600F9C2A5 /* Assets.xcassets */,
+				20A379F21ED1D50600F9C2A5 /* LaunchScreen.storyboard */,
+				20A379F51ED1D50600F9C2A5 /* Info.plist */,
+				20A379ED1ED1D50600F9C2A5 /* bearCook.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20A379FB1ED1D7CD00F9C2A5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				207BF8FE1ED2748D00B89939 /* CookTabViewController.h */,
+				207BF8FF1ED274CF00B89939 /* CookTabViewController.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		20DD0E041EFA15F9006AC7C2 /* cookMenuList */ = {
+			isa = PBXGroup;
+			children = (
+				20DD0E051EFA1688006AC7C2 /* CookMenuListController.h */,
+				20DD0E061EFA16EE006AC7C2 /* CookMenuListController.m */,
+			);
+			name = cookMenuList;
+			sourceTree = "<group>";
+		};
+		20F29B411EFCB77A00E7507C /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				20F29B421EFCB7E600E7507C /* MenuShowCell.h */,
+				20F29B431EFCB7E600E7507C /* MenuShowCell.m */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		20F29B451EFD0E9800E7507C /* cookMenuDetailsController */ = {
+			isa = PBXGroup;
+			children = (
+				20F29B461EFD0EDF00E7507C /* CookMenuDetailsController.h */,
+				20F29B471EFD0EDF00E7507C /* CookMenuDetailsController.m */,
+			);
+			name = cookMenuDetailsController;
+			sourceTree = "<group>";
+		};
+		D6F239B0A0B528A4C5F48009 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6263CA52A05421F51864E3AB /* Pods-bearCook.debug.xcconfig */,
+				7C1FD8141D52876A20C76008 /* Pods-bearCook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F128D57921A425609719C2AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				743B26CED38ED37A21809D57 /* Pods_bearCook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20A379DD1ED1D50600F9C2A5 /* bearCook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A379F81ED1D50600F9C2A5 /* Build configuration list for PBXNativeTarget "bearCook" */;
+			buildPhases = (
+				C114B0294D3AC88985224FA2 /* [CP] Check Pods Manifest.lock */,
+				20A379DA1ED1D50600F9C2A5 /* Sources */,
+				20A379DB1ED1D50600F9C2A5 /* Frameworks */,
+				20A379DC1ED1D50600F9C2A5 /* Resources */,
+				4F2F4611C0ED36F14FD7642D /* [CP] Embed Pods Frameworks */,
+				7F404F6BC072235CC562D63C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bearCook;
+			productName = bearCook;
+			productReference = 20A379DE1ED1D50600F9C2A5 /* bearCook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20A379D61ED1D50600F9C2A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "大熊";
+				TargetAttributes = {
+					20A379DD1ED1D50600F9C2A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20A379D91ED1D50600F9C2A5 /* Build configuration list for PBXProject "bearCook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20A379D51ED1D50600F9C2A5;
+			productRefGroup = 20A379DF1ED1D50600F9C2A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20A379DD1ED1D50600F9C2A5 /* bearCook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20A379DC1ED1D50600F9C2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A379F41ED1D50600F9C2A5 /* LaunchScreen.storyboard in Resources */,
+				20A379F11ED1D50600F9C2A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F2F4611C0ED36F14FD7642D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bearCook/Pods-bearCook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F404F6BC072235CC562D63C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bearCook/Pods-bearCook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C114B0294D3AC88985224FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20A379DA1ED1D50600F9C2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201CA4201EF8D10600F6B049 /* CommonUIScrollVIew.m in Sources */,
+				2043E52D1EE5306800F555EA /* ImgData.m in Sources */,
+				207BEE6A1EF0E4E800CA5F1D /* HotClassificationVIew.m in Sources */,
+				207BEE6D1EF0E6E400CA5F1D /* HotClassificationController.m in Sources */,
+				20DD0E071EFA16EE006AC7C2 /* CookMenuListController.m in Sources */,
+				207BF9001ED274CF00B89939 /* CookTabViewController.m in Sources */,
+				20A379E61ED1D50600F9C2A5 /* AppDelegate.m in Sources */,
+				20BFA7E51EF76FA3000E2B31 /* HotCollectionHeadView.m in Sources */,
+				207BF9201ED334D500B89939 /* OtherController.m in Sources */,
+				207BF9281ED58EF400B89939 /* GoodFoodView.m in Sources */,
+				201CA4231EF90F7000F6B049 /* CommonTitleView.m in Sources */,
+				20F29B481EFD0EDF00E7507C /* CookMenuDetailsController.m in Sources */,
+				207BF9061ED285F600B89939 /* CookMenuController.m in Sources */,
+				207BEE651EF0D4F900CA5F1D /* FoodClassNameCell.m in Sources */,
+				20A379E31ED1D50600F9C2A5 /* main.m in Sources */,
+				20A379EF1ED1D50600F9C2A5 /* bearCook.xcdatamodeld in Sources */,
+				20F29B441EFCB7E600E7507C /* MenuShowCell.m in Sources */,
+				207BF9161ED2CEC600B89939 /* MyMenuController.m in Sources */,
+				202C7F6E1EE6B1F80010B17D /* GoodFoodCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20A379F21ED1D50600F9C2A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A379F31ED1D50600F9C2A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20A379F61ED1D50600F9C2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20A379F71ED1D50600F9C2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20A379F91ED1D50600F9C2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6263CA52A05421F51864E3AB /* Pods-bearCook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = bearCook/PrefixHeader.pch;
+				INFOPLIST_FILE = bearCook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.bearCook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		20A379FA1ED1D50600F9C2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1FD8141D52876A20C76008 /* Pods-bearCook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = bearCook/PrefixHeader.pch;
+				INFOPLIST_FILE = bearCook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.bearCook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20A379D91ED1D50600F9C2A5 /* Build configuration list for PBXProject "bearCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A379F61ED1D50600F9C2A5 /* Debug */,
+				20A379F71ED1D50600F9C2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20A379F81ED1D50600F9C2A5 /* Build configuration list for PBXNativeTarget "bearCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A379F91ED1D50600F9C2A5 /* Debug */,
+				20A379FA1ED1D50600F9C2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20A379ED1ED1D50600F9C2A5 /* bearCook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20A379EE1ED1D50600F9C2A5 /* bearCook.xcdatamodel */,
+			);
+			currentVersion = 20A379EE1ED1D50600F9C2A5 /* bearCook.xcdatamodel */;
+			path = bearCook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20A379D61ED1D50600F9C2A5 /* Project object */;
+}
